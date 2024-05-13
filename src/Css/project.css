@@ -1,0 +1,190 @@
+.pro-div
+{
+    padding: 10px;
+    border-radius: 30px;
+    background: #0a0a0a;
+    margin: 10px;
+}
+.web-page-heading
+{
+    font-size: 18px;
+    margin: 10px 20px;
+    color: #9d9d9d;
+}
+.pro-profile-div
+{
+    position: sticky;
+    top: 70px;
+    text-align: center;
+}
+.pro-profile-div img
+{
+    border-radius: 200px;
+    height: 150px;
+     display: block;
+     margin: 10px auto;
+}
+.pro-profile-div h4
+{
+    color: white;
+    margin: 40px 0px 10px 0px;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+
+}
+.pro-profile-div p
+{
+    font-size: 16px;
+    color: rgb(94, 94, 94);
+    margin-bottom: 20px;
+}
+.pro-profile-div button
+{
+    padding: 14px 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    margin: 40px auto;
+    background-color: white;
+   width: 200px;
+  
+    display: block;
+    text-align: center;
+}
+.pro-profile-div h5
+{
+    font-size: 20px;
+    color: rgb(94, 94, 94);
+    margin-top: 20px;
+}
+.project-div
+{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   gap: 10px;
+   flex-wrap: wrap; 
+  
+}
+.project-div img{
+    height: 200px;
+}
+.project-list
+{
+    flex: 0 0 300px;
+    /* background-color: black ; */
+    padding: 20px;
+    border-radius: 30px;
+    margin: 10px 5px;
+    transition: all 200ms;  
+    border: 1px solid #313131;
+}
+.project-list:hover
+{
+    border: 1px solid #9d9d9d;
+     
+}
+.social-media
+{
+    margin: 20px 0px;
+}
+.social-media i
+{
+    font-size: 20px;
+    padding: 15px;
+    background-color:#131313;
+    border-radius: 10px;
+    margin: 0px 10px;
+    color: rgb(253, 253, 253);
+    border: 1px solid black;
+    transition: all 200ms;
+}
+.ab-con-details
+{
+    text-align: left;
+    padding: 20px;
+    background-color: #131313;
+    border-radius: 20px;
+    margin: 10px 20px;
+}
+.ab-details-list
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 3px solid rgb(43, 43, 43);
+    padding-bottom: 10px;
+}
+.ab-details-list i
+{
+    color: white;
+    
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 4px 15px 0  0;
+}
+.ab-details-list p
+{
+    margin: 3px 0px;
+    font-size: 13px;
+}
+.ab-details-list h5
+{
+    margin:5px 0 0 0px;
+    font-size: 15px;
+    color: rgb(220, 220, 220);
+}
+.social-media i:hover
+{
+    border: 1px solid white;
+}
+.project-list:hover .visit-site span
+{
+   color: white;
+}
+.pro-con-div
+{
+    margin-top: 30px;
+}
+.pro-img-div
+{
+    position: relative;
+    height: 200px;
+}
+.pro-img-div img
+{
+    border-radius: 20px !important;
+}
+.visit-site
+{
+    margin-top: 20px;
+    font-size: 16px;
+}
+.visit-site span
+{
+    margin: 0px !important;
+    font-size: 15px;
+    background-color: rgb(34, 34, 34);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.visit-site span i
+{
+    margin: 0px 6px;
+}
+.pro-con-div p
+{
+    font-size: 18px;
+    color: rgb(94, 94, 94);
+    
+}
+.pro-con-div h4
+{
+    font-size: 24px;
+    margin: 20px 0px 30px 0px;
+    color: white;
+}

@@ -1,0 +1,122 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#ser-Main
+{
+    max-width: 1140px;
+    margin: 30px auto;
+    display: block;
+   
+}
+.ser-pro-div
+{
+    position: sticky !important;
+    top: 70px;
+}
+.ser-inner-div
+{
+    background-color: #0a0a0a ;
+    margin: 10px 10px;
+  
+    border-radius: 20px;
+}
+.profile-list
+{
+    background-color: #000000;
+    padding: 30px;
+    margin: 20px 0px;
+    border-radius: 20px;
+border: 1px solid #000000;
+transition: all 200ms;
+}
+.profile-list:hover
+{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.profile-list h4
+{
+    color: #595959;
+}
+.profile-list p
+{
+    color: #3a3a3a;
+}
+.profile-list h5
+{
+    color: #5274ac;
+}
+.ser-head
+{
+    font-size: 35px;
+    font-weight: 400;
+    color: white;
+    margin: 20px 0px;
+}
+.skills
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: start;
+    align-items: stretch;
+
+}
+.skills-list
+{
+    flex: 0 0 200px;
+    padding: 20px;
+    text-align: center;
+    align-self: stretch;
+}
+.skills-list h4
+{
+    margin: 10px 0 0 0 ;
+    color: #6a6a6a;
+    font-weight: 400;
+    font-size: 17px;
+}
+.skills-list p
+{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #6a6a6a;
+    font-size: 15px;
+}
+.skill-inner
+{
+    border-radius: 20px;
+    border: 1px solid rgb(46, 46, 46);
+    padding: 20px;
+    transition: all 200ms;
+}
+.skill-inner:hover
+{
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+
+@media (max-width:776px)
+{
+    .skills
+    {
+        justify-content: center;
+    }
+}
+
+@media (max-width:520px)
+{
+    .skills-list
+    {
+        flex: 0 0 150px;
+        padding: 0px;
+    }
+    .ser-head
+    {
+        font-size: 30px;
+        margin: 50px 0px;
+    }
+}

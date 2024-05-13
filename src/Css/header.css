@@ -1,0 +1,136 @@
+#header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1140px;
+  margin: 10px auto 70px auto;
+
+}
+#bars
+{
+    display: none;
+}
+.mob-link
+{
+   height: 0px;
+}
+.mob-link a
+
+{
+    display: none;
+}
+.mob-link .social-media
+{
+    display: none;
+}
+.logo h4
+{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+span{
+    margin: 0px 20px;
+    font-size: 17px;
+    color: rgb(109, 109, 109);
+}
+span:hover
+{
+    color: white;
+}
+.link
+{
+    display: inline-block;
+}
+.con-btn
+{
+    padding: 10px 35px;
+    background-color: #191919;
+    color: rgb(255, 255, 255);
+    border-radius:15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.con-btn:hover
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0); 
+}
+
+@media (max-width:720px)
+{
+    #header
+    {
+        flex-direction: row;
+        width:100% !important;
+        justify-content: space-around;
+        margin: 20px 0px;
+        border-bottom: 2px solid rgb(45, 45, 45);
+        padding-bottom: 15px;
+    }
+    #header .link a
+    {
+       display: none;
+    }
+    #bars
+    {
+        display: inline;
+        font-size: 20px;
+        color: white;
+      
+    }
+     span
+     {
+        font-size: 15px;
+     }
+    .con-btn
+    {
+        display: none;
+    }
+     #footer
+     {
+        margin: 0px !important;
+     }
+     .footer-link
+     {
+        margin: 0px !important;
+        font-size: 14px !important;
+     }
+    #footer a
+    {
+        margin: 0px;
+        
+        font-size: 15px !important;
+    }
+    #footer span{
+        margin: 10px 8px !important;
+    }
+    .mob-link 
+    {
+        text-align: center;
+        margin: 10px;
+        background-color:#0a0a0a ;
+       
+        border-radius: 20px;
+        transition: all 300ms;
+        height: 260px;
+        overflow: hidden;
+    }
+    .mob-link .social-media
+    {
+        margin-top: 30px;
+        display: block;
+    }
+    .mob-link a
+    {
+        display: block;
+        margin: 10px;
+    }
+    .mob-link a:hover
+    {
+        color: white;
+    }
+}
+
+

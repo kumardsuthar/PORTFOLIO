@@ -1,0 +1,163 @@
+.ab-inner-div
+{
+    background: #0a0a0a;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 10px;
+    position: relative;
+}
+.ab-inner-div:hover .ab-icon i
+{
+    color: white;
+}
+.ab-icon
+{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+}
+.ab-icon i
+{
+    font-size: 40px;
+    color: #505050;
+    transition: all 300ms;
+    
+}
+.ab-icon i:nth-child(2n+1)
+{
+    margin:0px 20px;
+}
+.ab-profile
+{
+    padding: 30px;
+}
+.ab-profile img
+{
+   border-radius: 30px;
+}
+.about-sec h4
+{
+   text-align: center;
+   font-weight: bold;
+   font-size: 40px;
+   margin: 20px 0px 30px 0px;
+   color: white;
+}
+.about-con i
+{
+    color: rgb(84, 84, 84);
+    font-size: 30px;
+    transition: all 300ms;
+}
+.about-con:hover i{
+    color: white;
+}
+.about-con h3
+{
+    color: white;
+    font-size: 35px;
+    text-align: left;
+    margin: 20px 0px;
+}
+.about-con
+{
+    display: flex;
+    align-items: end;
+    height: 258px;
+}
+.about-con p
+{
+    margin: 10px 0px;
+    color: rgb(137, 137, 137);
+    max-width: 600px;
+    font-size: 15px !important;
+}
+.social div i
+{
+  /* background-color: white ; */
+  padding: 20px 22px !important;
+  color: rgb(255, 255, 255);
+  border-radius: 50px;
+  border: 1px  solid rgb(66, 66, 66);
+  transition: 200ms  all;
+  font-size: 35px;
+}
+.wid-div , .skill-t-div
+{
+    height: 200px;
+}
+.wid-sec div
+{
+    margin: 15px 0px;
+}
+.wid-sec div span
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.wid-sec div span h5
+{
+   margin: 0px;
+   font-size: 14px;
+}
+.wid-sec div span i
+{
+    margin: 0px 10px;
+    font-size: 18px;
+}
+.social div i:hover
+{
+  background-color: white;
+  color : black;
+}
+.ab-inner-div h4
+{
+   color: white;
+   margin: 5px 0px 10px 0px;
+}
+.ab-inner-div p{
+    margin: 20px 0px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(83, 83, 83);
+}
+.ab-inner-div h5
+{
+    color: rgb(83, 83, 83);
+}
+.project h4
+{
+    font-size: 18px;
+  font-weight: 500;
+  margin: 10px 0px;
+  color: #505050;
+}
+.project h2
+{
+    font-size: 21px;
+    font-weight: 700;
+    color: white;
+}
+
+@media (max-width:570px)
+{
+    .about-sec h4
+    {
+        font-size: 25px;
+    }
+    .about-con
+    {
+        height: fit-content;
+        padding: 20px;
+    }
+    .about-con i
+    {
+        font-size: 25px;
+    }
+    .ab-icon i
+    {
+        font-size: 25px;
+    }
+}
